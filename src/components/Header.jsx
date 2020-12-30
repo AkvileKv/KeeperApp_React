@@ -1,9 +1,10 @@
 import React from "react";
+import LockIcon from '@material-ui/icons/Lock';
 
 function Header() {
   return (
     <header>
-      <h1>Keeper</h1>
+      <h1><LockIcon/>Keeper</h1>
     </header>
   );
 }
